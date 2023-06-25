@@ -5,11 +5,13 @@ Operands and operators shall be separated by one or more spaces.
 Mixed numbers shall be represented by whole&numerator/denominator; for example, "3&1/4", “-1&7/8”.
 Improper fractions, whole numbers, and negative numbers are allowed as operands. -->
 
+Clone or download the zip file and go to the root folder of the project. 
+
 # Steps to run the program
 
 1. Install Libraries 
 
-   `bundle instal`
+   `bundle install`
 2. Give permission to run the file
 
    `chmod u+x bin/ruby_cmd`
@@ -20,7 +22,7 @@ Improper fractions, whole numbers, and negative numbers are allowed as operands.
 # Steps to run test cases
 1. Install Libraries
 
-   `bundle instal`
+   `bundle install`
 2. Run all test cases
 
    `ruby test/test_all.rb`

@@ -4,6 +4,7 @@
 class Fraction
   attr_reader :numerator, :denominator
 
+  # Raise argumnet error if invalid fraction is passed as input
   def initialize(operand)
     raise ArgumentError unless is_valid_fraction(operand)
 
@@ -44,7 +45,7 @@ class Fraction
     elsif !whole_number.zero?
       "#{minus}#{whole_number}&#{remainder}/#{denominator}"
     else
-      @value
+      "#{numerator}/#{denominator}"
     end
   end
 
@@ -68,11 +69,13 @@ class Fraction
 
   private
 
+  # Validate fraction
   def is_valid_fraction(value)
     !value.match(%r{(^-?\d+$)|(^-?\d+/\d+$)}).nil? ||
       !value.match(%r{^-?(\d+&\d+/\d+)$}).nil?
   end
 
+  # Store the fraction in simplied form.
   def init_num_den
     denominator = @value.split('/')[1].nil? ? 1 : @value.split('/')[1].to_i
     numerator = @value.split('/')[0].to_i

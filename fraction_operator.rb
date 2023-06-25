@@ -3,6 +3,7 @@ require_relative 'fraction'
 
 class FractionOperator
   def initialize(input)
+    # Trim the string
     @input = input.strip
   end
 
@@ -19,6 +20,7 @@ class FractionOperator
 
   private
 
+  # Find each operand and covert it to Fraction objects
   def convert_to_frac_expression(values)
     values.map(&:strip).map.with_index do |ele, index|
       if index.even?
@@ -29,6 +31,7 @@ class FractionOperator
     end
   end
 
+  # Perform arimetic operation based on the precedence
   def evaluate(array)
     return array[0] if array.size == 1
 
@@ -45,6 +48,7 @@ class FractionOperator
     array[0]
   end
 
+  # Perform the operation based on the Operator
   def calculate(operator, operand1, operand2)
     case operator
     when '+'

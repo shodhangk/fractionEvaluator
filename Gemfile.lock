@@ -1,0 +1,17 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    power_assert (2.0.3)
+    readline-ext (0.1.5)
+    test-unit (3.6.1)
+      power_assert
+
+PLATFORMS
+  arm64-darwin-21
+
+DEPENDENCIES
+  readline-ext
+  test-unit
+
+BUNDLED WITH
+   2.2.22

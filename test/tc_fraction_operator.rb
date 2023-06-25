@@ -1,4 +1,4 @@
-require_relative '../fraction_operator'
+require_relative '../lib/fraction_operator'
 require 'test/unit'
 
 class TestFractionOperator < Test::Unit::TestCase

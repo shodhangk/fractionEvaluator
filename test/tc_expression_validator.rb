@@ -1,4 +1,4 @@
-require_relative '../expression_validator'
+require_relative '../lib/expression_validator'
 require 'test/unit'
 
 class TestExpressionValidator < Test::Unit::TestCase

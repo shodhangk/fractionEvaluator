@@ -7,17 +7,20 @@ Improper fractions, whole numbers, and negative numbers are allowed as operands.
 
 # Steps to run the program
 
-1. Install Readline 
+1. Install Libraries 
 
-   `gem 'readline', '~> 0.0.3'`
+   `bundle instal`
+2. Give permission to run the file
+
+   `chmod u+x bin/ruby_cmd`
 2. Start the command line tool: 
 
-   `ruby ruby_cmd.rb`  
+   `./ruby_cmd`  
 
 # Steps to run test cases
-1. Install the test-unit gem
+1. Install Libraries
 
-   `gem install test-unit -v 3.1.8`
+   `bundle instal`
 2. Run all test cases
 
    `ruby test/test_all.rb`

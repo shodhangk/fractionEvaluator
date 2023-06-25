@@ -7,6 +7,9 @@ Improper fractions, whole numbers, and negative numbers are allowed as operands.
 
 Clone or download the zip file and go to the root folder of the project. 
 
+Prerequisites: Install ruby!
+
+
 # Steps to run the program
 
 1. Install Libraries 

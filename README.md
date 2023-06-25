@@ -10,7 +10,7 @@ Improper fractions, whole numbers, and negative numbers are allowed as operands.
 1. Install Readline 
 
    `gem 'readline', '~> 0.0.3'`
-2. Start the command line tool: \
+2. Start the command line tool: 
 
    `ruby ruby_cmd.rb`  
 

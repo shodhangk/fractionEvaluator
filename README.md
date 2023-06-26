@@ -20,7 +20,7 @@ Prerequisites: Install ruby!
    `chmod u+x bin/ruby_cmd`
 2. Start the command line tool: 
 
-   `./ruby_cmd`  
+   `./bin/ruby_cmd`  
 
 # Steps to run test cases
 1. Install Libraries
